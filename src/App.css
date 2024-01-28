@@ -1,38 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #FFC166;
+  padding: 0 10%;
+  min-height: 100vh;
+  border-left: #424153 solid 100px;
+  border-right: #424153 solid 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.titulo{
+  width: 60%;
+  margin: 20px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gif{
+  height: 180px;
+  mix-blend-mode: multiply;
+}
+
+.container{
+  border: solid 6px #e28d43;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  width: 80%;
+  height: 40vh;
+  padding: 15px 10px;
+  overflow-y: scroll;
+  box-shadow: 0 0 0 5px #f1a05a;
+}
+
+
+.definicao{
+  width: 100%;
+  font-family: 'Cabin', sans-serif;
+  color: #424153;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;margin: 20px;
+}
+
+.container p{
+  word-wrap: break-word;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+button{
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  transition: ease .3s;
+  color: #424153;
 }
