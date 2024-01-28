@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/macaco-infinito/static/css/main.eee6fc9d.css",
+    "main.js": "/macaco-infinito/static/js/main.b721accc.js",
+    "static/media/macaco-digitando.gif": "/macaco-infinito/static/media/macaco-digitando.60479608bd1e56ea5525.gif",
+    "static/media/titulo.png": "/macaco-infinito/static/media/titulo.026b370bed265bf7651e.png",
+    "index.html": "/macaco-infinito/index.html",
+    "main.eee6fc9d.css.map": "/macaco-infinito/static/css/main.eee6fc9d.css.map",
+    "main.b721accc.js.map": "/macaco-infinito/static/js/main.b721accc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eee6fc9d.css",
+    "static/js/main.b721accc.js"
+  ]
+}
