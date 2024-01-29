@@ -9,15 +9,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #FFC166;
+  background-color: #f2f2f2;
   padding: 0 10%;
   min-height: 100vh;
-  border-left: #424153 solid 100px;
-  border-right: #424153 solid 100px;
+  border-left: #FFC166 solid 200px;
+  border-right: #FFC166 solid 200px;
 }
 
 .titulo{
-  width: 60%;
+  width: 70%;
   margin: 20px 0;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .container{
-  border: solid 6px #e28d43;
+  border: solid 6px #424153;
   background-color: #f2f2f2;
   border-radius: 6px;
   width: 80%;
@@ -52,6 +52,7 @@
   font-family: 'Cabin', sans-serif;
   letter-spacing: 1px;
   font-size: 20px;
+  color: #424153;
 }
 
 button{
@@ -60,7 +61,7 @@ button{
   border: none;
   padding: 10px;
   margin: 10px;
-  font-size: 30px;
+  font-size: 40px;
   transition: ease .3s;
   color: #424153;
 }

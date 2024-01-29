@@ -6,7 +6,7 @@ import { FaPause, FaPlay } from "react-icons/fa6";
 
 function App() {
   const [texto, setTexto] = useState("dda");
-  const [isDigitando, setIsDigitando] = useState(true);
+  const [isDigitando, setIsDigitando] = useState(false);
   const textoContainerRef = useRef()
   const letras = "abcdefghijklmnopqrstuvwxyz";
 
@@ -34,11 +34,6 @@ function App() {
   return (
     <div className="App">
       <img className="titulo" src={titulo}/>
-      <p className="definicao">
-        O Teorema do Macaco Infinito afirma que um macaco digitando
-        aleatoriamente em um teclado por um intervalo de tempo infinito irá
-        quase certamente criar um texto qualquer escolhido.
-      </p>
       <img className="gif" src={gifMacaco} alt="Macaco digitando" />
       <div ref={textoContainerRef} className="container">
         <p>{texto}</p>
